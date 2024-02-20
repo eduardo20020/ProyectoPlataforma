@@ -1,35 +1,40 @@
 <?php
  echo '
- <form action="" method="post">
+ <form action="../php/postPasante.php" method="post">
 
  <div class="mb-3">
  <label class="form-label">Nombre(s): </label>
- <input type="text" class="form-control">
+ <input name="nombre" type="text" class="form-control">
 </div>
 
 <div class="mb-3">
 <label class="form-label">Apellidos: </label>
-<input type="text" class="form-control">
+<input name="apellidos" type="text" class="form-control">
 </div>
 
 <div class="mb-3">
 <label class="form-label">Carrera: </label>
-<input type="text" class="form-control">
+<input name="carrera" type="text" class="form-control">
 </div>
 
 <div class="mb-3">
 <label class="form-label">Correo: </label>
-<input type="text" class="form-control">
+<input name="correo" type="text" class="form-control">
 </div>
 
  <div class="mb-3">
-     <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-     <input type="password" class="form-control" id="exampleInputPassword1">
+     <label  class="form-label">Contraseña</label>
+     <input name="password" type="password" class="form-control" >
  </div>
 
  <div class="mb-3">
+<label class="form-label">Direccion: </label>
+<input name="direccion" type="text" class="form-control">
+</div>
+
+ <div class="mb-3">
 <label class="form-label">Telefono: </label>
-<input type="text" class="form-control">
+<input name="telefono" type="text" class="form-control">
 <div id="emailHelp" class="form-text">Well never share your email with anyone else.</div>
 
 </div>

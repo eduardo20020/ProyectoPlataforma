@@ -20,7 +20,7 @@
                 <div onclick="pasante()" id="pasante" class="col p-4 m-1"><h3>PASANTE</h3></div>
             </div>
             <br>
-            <p class="my-4">Ya tienes una cuenta? <a href="">Login aqui.</a></p>
+            <p class="my-4">Ya tienes una cuenta? <a href="../public/login.php">Login aqui.</a></p>
             <br><br>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 290" style="width: 130%; height: auto;;">
                  <path fill="#0099ff" fill-opacity="1" d="M0,224L80,197.3C160,171,320,117,480,112C640,107,800,149,960,165.3C1120,181,1280,171,1360,165.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
