@@ -9,8 +9,8 @@ echo '
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="../index.php">Home</a>
-        <a class="nav-link" href="#">Historia</a>
-        <a class="nav-link" href="#">Privacidad</a>
+        <a class="nav-link" href="../index.php#historia">Historia</a>
+        <a class="nav-link" href="../public/AvisoPrivacidad.html">Privacidad</a>
         <a class="nav-link" href="#">Contacto</a>
     </div>
     </div>

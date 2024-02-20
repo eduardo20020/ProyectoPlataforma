@@ -1,6 +1,6 @@
 <?php
 echo '
-<form action="" method="post">
+<form action="../php/postEmpresa.php" method="post">
 <div class="mb-3">
     <label class="form-label">Nombre de la empresa:</label>
     <input type="text" class="form-control">
