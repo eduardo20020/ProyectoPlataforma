@@ -13,12 +13,13 @@
     <div class="row">
 
         <div class="col pt-5 text-center">
-            <h2 class="mb-4">Registrate como: </h2>
-            <div class="row mx-2">
+            <h2 class="mt-4">Registrate como: </h2>
+            <br>
+            <div class="row mx-2 mt-4">
                 <div onclick="empresa()" id="empresa" class="col p-4 m-1"><h3>EMPRESA</h3></div>
                 <div onclick="pasante()" id="pasante" class="col p-4 m-1"><h3>PASANTE</h3></div>
             </div>
-            <br><br>
+            <br>
             <p class="my-4">Ya tienes una cuenta? <a href="">Login aqui.</a></p>
             <br><br>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 290" style="width: 130%; height: auto;;">
@@ -29,8 +30,12 @@
 
         <div class="col text-center pt-5 px-5" style=" background-color:#0099ff; border-radius:150px;">
             <h2>Por que buscar con nosotros?</h2>
-            <p class="mx-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dolore iure corporis. Consectetur adipisci suscipit iste a labore ullam cupiditate?</p>
-            <img src="IMG/gatocortado.png" alt="">
+            <div class="container">
+                <div class="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae adipisci vel tempore voluptates ipsum, similique at voluptas culpa assumenda vitae.</p>
+                </div>
+                <img class="img-fluid d-block" src="IMG/review-process.svg" alt="">
+            </div>
         </div>
 
     </div>
@@ -60,13 +65,16 @@
     
     <section id="FormEmpresa" class="container my-4 py-4 col-8">
         <h4 class="text-center">FORMULARIO DE EMPRESA</h4>
-        <?php require_once"public/formEmpresa.php";?>
+        <?php require"public/formEmpresa.php";?>
     </section>
 
     <section id="FormPasante" class="container my-4 py-4 col-8">
         <h4 class="text-center">FORMULARIO DE PASANTE</h4>
-        <?php require_once"public/formPasante.php";?>
+        <?php require"public/formPasante.php";?>
     </section>
+
+
+    
 
     <script>
         function empresa(){
