@@ -1,6 +1,6 @@
 <?php
 echo '
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#0874c5">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#007400">
 <div class="container-fluid">
     <a class="navbar-brand mx-5" href="../index.php"><h2>Soy Brandon xdxd</h2></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
