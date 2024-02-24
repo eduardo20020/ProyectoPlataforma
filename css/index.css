@@ -1,0 +1,27 @@
+.aa{
+    color: inherit;
+    text-decoration: none;
+}
+#empresa:hover{
+    background-color: #06acff;
+    border-radius: 24px;
+}
+#pasante:hover{
+
+    background-color: #06acff;
+    border-radius: 24px;
+}
+#empresa,#pasante{
+    border-radius: 22px;
+    border: solid 1px;
+
+}
+
+
+.navbar-nav .nav-link .aa {
+    font-size: 18px; /* Modifica el tamaño de fuente de los elementos de navegación */
+  }
+
+
+  
+  
