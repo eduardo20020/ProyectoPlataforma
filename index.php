@@ -28,7 +28,11 @@
     <div class="container py-5">
 
     <div class="row text-center">
-            <div class="col">
+        <div class="col-md-4">
+            <h4>Comienza a buscar tu servicio</h4>
+            <img class="img-fluid" src="img/carnaval-brasileno.png" alt="">
+        </div>
+            <div class="col-md-8">
                 <h2>Inicia sesión</h2>
                 <form class="login-form">
                     <div class="mb-3">
