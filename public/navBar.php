@@ -13,7 +13,7 @@
     </div>
     </div>
     <div class="d-flex align-items-center mx-5">
-        <span class="mx-5"><a href="public/login.php" class="aa">sexo</a></span>
+        <span class="mx-5"><a href="public/login.php" class="aa">t amo clarissa</a></span>
     </div>
 </div>
 </nav>
