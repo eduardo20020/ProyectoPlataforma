@@ -6,6 +6,7 @@ create table TBL_PASANTE(
 	nombre varchar(max),
 	apellidos varchar(max),
 	carrera varchar(max),
+	correo varchar(max),
 	[password] varchar(max),
 	telefono varchar(max),
 	fecha date
