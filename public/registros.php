@@ -21,13 +21,16 @@
             </div>
             <div class="col-md-8">
                 <h2>Registrate como: </h2>
+
                 <div class="row py-3 mx-2">
-                    <div class="col empresa2 p-4 mx-2">
+                    <div id="Idempresa" class="col empresa2 p-4 mx-2">
                         <h3>Empresa</h3>
                     </div>
-                    <div class="col pasante2 p-4 mx-2">
+
+                    <div id="Idpasante" class="col pasante2 p-4 mx-2">
                         <h3>Pasante</h3>
                     </div>
+
                 </div>
                 <br>
                 Ya tienes una cuenta? <a href="../index.php">Login aqui</a>
@@ -79,6 +82,23 @@
     <?php require "../public/footer.php"; ?>
 
     <!-- Scripts -->
+    <script>
+
+
+        document.getElementById('Idpasante').addEventListener('click', function() {
+                window.location.href = "#formpasante";
+            
+        });
+        document.getElementById('Idempresa').addEventListener('click', function() {
+                window.location.href = "#formempresa";
+            
+        });
+
+
+
+
+
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
