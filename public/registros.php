@@ -22,10 +22,10 @@
             <div class="col-md-8">
                 <h2>Registrate como: </h2>
                 <div class="row py-3 mx-2">
-                    <div class="col empresa p-4 mx-2">
+                    <div class="col empresa2 p-4 mx-2">
                         <h3>Empresa</h3>
                     </div>
-                    <div class="col pasante p-4 mx-2">
+                    <div class="col pasante2 p-4 mx-2">
                         <h3>Pasante</h3>
                     </div>
                 </div>
