@@ -1,5 +1,4 @@
-<?php
- echo '
+
  <form action="../php/postPasante.php" method="post">
 
  <div class="mb-3">
@@ -41,5 +40,3 @@
 
  <button type="submit" class="btn btn-primary">Submit</button>
 </form>
- ';
-?>

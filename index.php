@@ -46,7 +46,7 @@
                     <button type="submit" class="btn btn-primary">Iniciar sesión</button>
                 </form>
                 <br>
-                Ya tienes una cuenta? <a href="">Login aqui</a>
+                No tienes una cuenta? <a href="public/registros.php">Registrate aqui</a>
             </div>
         </div>
 
@@ -59,21 +59,28 @@
         </div>
         <div class="row text-center">
             <div class="col-md-6 feature">
-                <img src="img/estadisticas.png" alt="Estadísticas">
+                <img class="img-fluid" src="img/estadisticas.png" alt="Estadísticas">
                 <h4>Estadísticas</h4>
                 <p>Texto explicativo sobre las estadísticas.</p>
             </div>
             <div class="col-md-6 feature">
-                <img src="img/equipo (4).png" alt="Equipo">
+                <img class="img-fluid" src="img/equipo (4).png" alt="Equipo">
                 <h4>Equipo</h4>
                 <p>Texto explicativo sobre el equipo.</p>
             </div>
+        </div>
+        <div class="col feature text-center">
+                <img class="img-fluid" src="../img/maletin.png" alt="Equipo">
+                <h4>Equipo</h4>
+                <p>Texto explicativo sobre el equipo.</p>
         </div>
 
     
 
 
     </div>
+
+    <?php require "public/footer.php"; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

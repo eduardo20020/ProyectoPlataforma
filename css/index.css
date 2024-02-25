@@ -2,16 +2,16 @@
     color: inherit;
     text-decoration: none;
 }
-#empresa:hover{
-    background-color: #06acff;
+.empresa:hover{
+    background-color: #5DADE2;
     border-radius: 24px;
 }
-#pasante:hover{
+.pasante:hover{
 
-    background-color: #06acff;
+    background-color: #5DADE2;
     border-radius: 24px;
 }
-#empresa,#pasante{
+.empresa,.pasante{
     border-radius: 22px;
     border: solid 1px;
 

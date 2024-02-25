@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#5DADE2">
 <div class="container-fluid px-5  mt-4">
-    <img class="mx-3" src="img/direccion (1).png" alt="">
+    <img class="mx-3" src="../img/direccion (1).png" alt="">
     <a class="navbar-brand" href="../index.php"><h2 class="mx-5">Social-Hub</h2></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
