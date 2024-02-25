@@ -58,7 +58,7 @@
 
         <hr>
 
-        <div id="empresa" class="d-flex justify-content-center">
+        <div id="formempresa" class="d-flex justify-content-center">
             <div class="text-center col-8">
                 <h3>registro de empresa</h3>
                 <?php require "../public/formEmpresa.php"; ?>
@@ -67,7 +67,7 @@
 
         <hr>
 
-        <div id="pasante" class="d-flex justify-content-center">
+        <div id="formpasante" class="d-flex justify-content-center">
             <div class="text-center col-8">
                 <h3>registro de pasante</h3>
                 <?php require "../public/formPasante.php"; ?>
