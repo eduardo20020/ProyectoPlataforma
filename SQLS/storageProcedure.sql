@@ -33,8 +33,6 @@ BEGIN
 END;
 
 
-exec registrarEmpresa 'pepsi','pepsi@gmail','12345','pepsico','232323','alimentos','monterrey'
-
 
 
 
