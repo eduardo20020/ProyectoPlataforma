@@ -29,7 +29,7 @@
 
     <div class="row text-center">
         <div class="col-md-4">
-            <h4>Comienza a buscar tu servicio</h4>
+            <h4>Comienza a buscar tu servicio social</h4>
             <img class="img-fluid" src="img/carnaval-brasileno.png" alt="">
         </div>
             <div class="col-md-8">
@@ -43,6 +43,13 @@
                         <label for="password" class="form-label">Contraseña</label>
                         <input type="password" class="form-control" id="password" placeholder="Contraseña">
                     </div>
+                    <div class="input-group mb-3">
+                        <select class="form-select" id="inputGroupSelect01">
+                            <option value="1">Empresa</option>
+                            <option value="2">Pasante</option>
+                        </select>
+                    </div>
+
                     <button type="submit" class="btn btn-primary">Iniciar sesión</button>
                 </form>
                 <br>

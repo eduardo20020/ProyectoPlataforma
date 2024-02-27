@@ -25,10 +25,12 @@
                 <div class="row py-3 mx-2">
                     <div id="Idempresa" class="col empresa2 p-4 mx-2">
                         <h3>Empresa</h3>
+                        <p>ofrece pasantias para ayudar a la comunidad univeristaria</p>
                     </div>
 
                     <div id="Idpasante" class="col pasante2 p-4 mx-2">
                         <h3>Pasante</h3>
+                        <p>busca donde hacer tu servicio social o alguna pasantia</p>
                     </div>
 
                 </div>
