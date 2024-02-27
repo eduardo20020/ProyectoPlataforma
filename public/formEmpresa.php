@@ -1,29 +1,30 @@
 
-<form action="../php/postEmpresa.php" method="post">
-<div class="mb-3">
-    <label class="form-label">Nombre de la empresa:</label>
-    <input name="nombreempresa" type="text" class="form-control">
-</div>
-<div class="mb-3">
-    <label class="form-label">Sector de la empresa:</label>
-    <input name="sector" type="text" class="form-control">
-</div>
-<div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Correo</label>
-    <input name="correo" type="text" class="form-control" >
-</div>
-<div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-    <input name="password" type="password" class="form-control">
-</div>
-<div class="mb-3">
-    <label class="form-label">Ubicacion de la empresa:</label>
-    <input name="ubicacion" type="text" class="form-control">
-</div>
-<div class="mb-3">
-    <label class="form-label">Telefono de la empresa:</label>
-    <input name="telefono" type="text" class="form-control">
-    <div id="emailHelp" class="form-text">Well never share your email with anyone else.</div>
-</div>
-<button type="submit" class="btn btn-primary">Submit</button>
+<form action="../php/postPasante.php" method="post">
+    <div class="mb-3">
+        <label class="form-label">Usuario:</label>
+        <input type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Correo:</label>
+        <input type="text" class="form-control">
+    </div>    <div class="mb-3">
+        <label class="form-label">Password:</label>
+        <input type="text" class="form-control">
+    </div>    <div class="mb-3">
+        <label class="form-label">Nombre (s):</label>
+        <input type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Telefono:</label>
+        <input type="text" class="form-control">
+    </div>    <div class="mb-3">
+        <label class="form-label">Sector:</label>
+        <input type="text" class="form-control">
+    </div>    <div class="mb-3">
+        <label class="form-label">Direccion:</label>
+        <input type="text" class="form-control">
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Registrar</button>
 </form>
