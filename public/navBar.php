@@ -9,8 +9,8 @@
     <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="../index.php">Home <i class="bi bi-house-door-fill"></i></a>
         <a class="nav-link" href="../index.php#historia">Historia <i class="bi bi-hourglass-split"></i></a>
-        <a class="nav-link" href="../public/AvisoPrivacidad.html">Privacidad <i class="bi bi-lock-fill"></i></a>
-        <a class="nav-link" href="#">Contacto <i class="bi bi-globe-americas"></i></a>
+        <a class="nav-link" href="../public/AvisoPrivacidad.php">Privacidad <i class="bi bi-lock-fill"></i></a>
+        <a class="nav-link" href="../index.php#contacto">Contactanos <i class="bi bi-globe-americas"></i></a>
     </div>
     </div>
 </div>

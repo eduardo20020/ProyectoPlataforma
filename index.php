@@ -33,11 +33,11 @@
 
     <div class="container py-5">
 
-    <div class="row text-center">
-        <div class="col-md-4">
-            <h4>Comienza a buscar tu servicio</h4>
-            <img class="img-fluid" src="img/carnaval-brasileno.png" alt="">
-        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h4>Comienza a buscar tu servicio</h4>
+                <img class="img-fluid" src="img/carnaval-brasileno.png" alt="">
+            </div>
             <div class="col-md-8">
                 <h2>Inicia sesión</h2>
                 <form class="login-form">
@@ -76,14 +76,28 @@
                 <p>Texto explicativo sobre el equipo.</p>
             </div>
         </div>
-        <div class="col feature text-center">
+        <div class="row text-center">
+            <div class="col feature">
                 <img class="img-fluid" src="../img/maletin.png" alt="Equipo">
                 <h4>Equipo</h4>
                 <p>Texto explicativo sobre el equipo.</p>
+            </div>
         </div>
 
-    
+        <hr>
+        <div id="historia" class="row text-center mb-2">
+            <div class="col">
+                <h2>Nuestra Historia</h2>
+            </div>
+        </div>
 
+        <hr>
+        
+        <div id="contacto" class="row text-center mb-2">
+            <div class="col">
+                <h2>Contactanos</h2>
+            </div>
+        </div>
 
     </div>
 
