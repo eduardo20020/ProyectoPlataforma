@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Procesamiento adicional, como guardar en la base de datos
     
-    require "koko.php"; // Ajusta el nombre de tu archivo de conexión
+    require "conexion.php"; // Ajusta el nombre de tu archivo de conexión
     $pp = "registrarEmpresa"; // Nombre del procedimiento almacenado
     // Prepara la llamada al procedimiento almacenado
     $stmt = $conn->prepare("EXEC $pp @usuario = :usuario, @correo = :correo, @password = :password, @nombre = :nombre, @telefono = :telefono, @sector = :sector, @direccion = :direccion");
@@ -29,9 +29,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bindParam(':direccion', $direccion);
 
     // Ejecuta el procedimiento almacenado
-    $stmt->execute();
+    if($stmt->execute()){
+        echo "correcto";
+    }else{
+        echo "errror";
+    }
     
-    echo "Procedimiento almacenado ejecutado correctamente.";
+   
     exit;
 }
 ?>

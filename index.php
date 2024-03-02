@@ -43,11 +43,11 @@
                 <form class="login-form">
                     <div class="mb-3">
                         <label for="email" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Correo electrónico">
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="password" placeholder="Contraseña">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña">
                     </div>
 
                     <button type="submit" class="btn btn-primary">Iniciar sesión</button>
@@ -90,6 +90,9 @@
                 <h2>Nuestra Historia</h2>
             </div>
         </div>
+        <div class="container px-5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae veniam dolor facere, officia delectus quaerat nemo. Modi doloribus, nihil nesciunt necessitatibus dolores animi officia natus. Recusandae, magni velit. Excepturi, repellat vel. Quas accusamus unde recusandae praesentium iusto fugit natus delectus placeat? Dignissimos eum alias assumenda consequuntur accusamus voluptates facilis vero.</p>
+        </div>
 
         <hr>
         
@@ -97,6 +100,9 @@
             <div class="col">
                 <h2>Contactanos</h2>
             </div>
+        </div>
+        <div class="container text-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.4740449788465!2d-100.60850142406369!3d25.78793050751982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86629d9b90c42e41%3A0xd1aa33b4c4a7dfd7!2sUniversidad%20Polit%C3%A9cnica%20de%20Garc%C3%ADa!5e0!3m2!1ses-419!2smx!4v1709352104304!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
     </div>
