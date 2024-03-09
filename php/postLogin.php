@@ -1,42 +1,53 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    // Recuperar los valores del formulario
     $email = $_POST["email"];
     $password = $_POST["password"];
 
-    require "conexion.php";
-    
-    // Consulta SQL para verificar el correo electrónico y la contraseña
-    $sql = "SELECT correo, usuario, rol FROM USUARIOS WHERE correo = :email AND password = :password";
-    
-    // Preparar la consulta
-    $stmt = $conn->prepare($sql);
-    
-    // Vincular parámetros
-    $stmt->bindParam(':email', $email);
-    $stmt->bindParam(':password', $password);
-    
-    // Ejecutar la consulta
-    $stmt->execute();
-    
-    // Obtener el resultado
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
-    
-    if ($user) {
-        // Usuario autenticado, puedes hacer algo con la información del usuario
-        if($user['rol']=="pasante"){
-            header("Location: ../public/HomePasante.php");
-        }
-        if($user['rol']=="empresa"){
-            header("Location: ../public/HomeEmpresa.php");
-        }
-        if($user['rol']=="admin"){
-            header("Location: ../public/HomeAdmin.php");
-        }
+    if(empty($email) || empty($password)) {
+        echo "<script>alert('Por favor, completa todos los campos.');</script>";
+        echo "<script>window.location.replace('../index.php');</script>";
+        exit(); 
     } else {
-        // Usuario no encontrado o contraseña incorrecta
-        header("Location: ../index.php");
+        require "conexion.php";
+        
+        $sql = "SELECT correo, usuario, rol FROM USUARIOS WHERE correo = :email AND password = :password";
+        
+        $stmt = $conn->prepare($sql);
+        
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':password', $password);
+        
+        $stmt->execute();
+        
+        $user = $stmt->fetch(PDO::FETCH_ASSOC);
+        
+        if ($user) {
+            session_start();
+            $_SESSION["nombre"] = $user['usuario'];
+            $_SESSION["rol"] = $user['rol'];
+
+            
+            switch ($user['rol']) {
+                case "pasante":
+                    header("Location: ../public/HomePasante.php");
+                    break;
+                case "empresa":
+                    header("Location: ../public/HomeEmpresa.php");
+                    break;
+                case "admin":
+                    header("Location: ../public/HomeAdmin.php");
+                    break;
+                default:
+                    header("Location: ../index.php");
+                    break;
+            }
+            exit(); 
+        } else {
+            echo "<script>alert('Correo electrónico o contraseña incorrectos.');</script>";
+            echo "<script>window.location.replace('../index.php');</script>";
+            exit(); 
+        }
     }
 }
 ?>
