@@ -30,10 +30,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Ejecuta el procedimiento almacenado
     if($stmt->execute()){
-        echo "correcto";
+        //AQUI DEBERIA IR UNA ALERTA DE QUE FUE CORRECTO
+        echo "<script>alert('todo correcto');</script>";
+        echo "<script>window.location.replace('../index.php');</script>";    
     }else{
-        echo "errror";
+        //AQUI DEBERIA IR UNA ALERTA 
+        echo "<script>alert('algo salio mal');</script>";
+        echo "<script>window.location.replace('../public/registros.php');</script>";
+        exit();     
     }
+   
     exit;
 }
 ?>
