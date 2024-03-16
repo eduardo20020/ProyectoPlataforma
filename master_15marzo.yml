@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy PHP app to Azure Web App - Social-Serve
+name: Build and deploy PHP app to Azure Web App - 15marzo
 
 on:
   push:
@@ -60,7 +60,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'Social-Serve'
+          app-name: '15marzo'
           slot-name: 'production'
           package: .
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_5092fba67c6c4c5ab6e142a6dbd26a3c }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_cbc9f7ca94e24ac9be45aa97f9ee479a }}
